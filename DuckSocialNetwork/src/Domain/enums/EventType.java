@@ -1,0 +1,17 @@
+package Domain.enums;
+
+public enum EventType {
+    LOGIN,
+    LOGOUT,
+    MESSAGE_SENT,
+    MESSAGE_RECEIVED,
+    FRIEND_ADDED,
+    FRIEND_REMOVED,
+    EVENT_CREATED,
+    EVENT_SUBSCRIBED,
+    TRAINING_COMPLETED,
+    RACE_PARTICIPATION,
+    RACE_COMPLETED,
+    JOINED_FLOCK,
+    LEFT_FLOCK
+}

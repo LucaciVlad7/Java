@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerStaff">
+   <children>
+      <Label fx:id="label" layoutX="24.0" layoutY="14.0" prefHeight="39.0" prefWidth="258.0" text="Baza restaurantului stati cuminti ca e greu" />
+      <ListView fx:id="listViewPlacedOrders" layoutX="24.0" layoutY="53.0" prefHeight="318.0" prefWidth="553.0" />
+   </children>
+</AnchorPane>
